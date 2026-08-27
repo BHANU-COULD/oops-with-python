@@ -1,0 +1,11 @@
+class Reactangle:
+    def area (self,l,b):
+        print(l*b)
+    def volume(self,l,b,h):
+        print(l*b*h)
+r1=Reactangle()
+l=int(input("enterl="))
+b=int(input("enterb="))
+h=int(input("enterh="))
+r1.area(10,20)
+r1.volume(10,20,30)
